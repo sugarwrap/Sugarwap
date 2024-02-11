@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body style="margin-top:5rem; display:  flex; justify-content: center; align-items: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 500;">
+    <form action="https://formspree.io/f/mgegkwak" method="POST">
+      <label for="inputAddress" class="form-label">First Name</label>
+      <input type="text" name="Fname" class="form-control" id="inputAddress">
+    </div> <br><br>
+    <div class="col-12">
+      <label for="inputAddress" class="form-label">Last Name</label>
+      <input type="text" name="Sname" class="form-control" id="inputAddress">
+    </div><br><br>
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">Email</label>
+      <input type="email" name="email" class="form-control" id="inputEmail4">
+    </div><br><br>
+    <div>
+      <label for="description">Description:</label><br>
+      <textarea id="description" name="description" rows="5" cols="40vw"></textarea><br>
+    </div><br> <br>
+    <div class="col-12">
+      <label for="inputAddress" class="form-label">Present Address</label>
+      <input type="text" name="address" class="form-control" id="inputAddress" placeholder="kathmandu 32">
+    </div><br><br>
+    <div class="col-md-4">
+      <label for="inputState" class="form-label">State (only Nepal)</label>
+      <select id="inputState" class="form-select" name="Location">
+        <option selected="">Choose...</option>
+        <option>Koshi</option>
+        <option>Madhesh</option>
+        <option>Bagmati</option>
+        <option>Gandaki</option>
+        <option>Lumbini</option>
+        <option>Karnali</option>
+        <option>Sudur Paschim</option>
+      </select>
+    </div><br><br>
+
+    
+    <button type="submit">Send</button>
+  </form>
+</body>
+</html>
